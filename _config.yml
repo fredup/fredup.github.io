@@ -1,3 +1,4 @@
-server: true
-auto: true
-title: FRED, the FRont End Developers meetup
+server:  true
+auto:    true
+title:   FRED, the FRont End Developers meetup
+exclude: [compass.rb, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
