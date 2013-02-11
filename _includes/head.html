@@ -1,0 +1,9 @@
+<head>
+	{% if page.layout == 'fred' %}
+	<title>{{ page.prefix }}{{ site.title }} for {{ page.title }}</title>
+	{% elsif page.layout == 'homepage' %}
+	<title>{{ site.title }}</title>
+	{% else %}
+	<title>{{ page.title }} - {{ site.title }}</title>
+	{% endif %}
+</head>

@@ -1,6 +1,6 @@
 ---
 title: Buffalo, NY
-city: Buffalo
+prefix: Bflo
 layout: fred
 logo: logo.png
 photo: buffalo.jpg
