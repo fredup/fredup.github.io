@@ -1,8 +1,12 @@
 .fred-head {
 	@include pad(1,1);
+	padding-top: 20px;
+	padding-bottom: 20px;
 	clear: both;
-	margin: 20px 0;
 	@include clearfix;
+	background: $grey;
+	border-top: 10px solid $green;
+	border-bottom: 5px solid $green;
 }
 
 .fred-logo {
@@ -10,8 +14,12 @@
 }
 
 .logo {
-	font: 900 28px $font-monospace;
 	text-decoration: none;
+	background: url(/img/logo-100x115.png);
+	width: 100px;
+	height: 115px;
+	text-indent: -9999px;
+	display: block
 }
 
 .fred-nav {
@@ -44,4 +52,10 @@
 
 .fred-head-mini {
 	
+}
+
+.fred-group {
+	float: left;
+	width: 100%;
+	background: $grey;
 }

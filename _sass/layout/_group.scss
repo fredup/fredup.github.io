@@ -9,7 +9,6 @@
 	background-position: center center;
 	color: #FFF;
 	@include text-shadow(0 0 12px rgba(0, 0, 0, 0.6), 0 1px 1px black);
-	@include border-radius(6px);
 	@include box-shadow(inset 0px -1px 6px black);
 
 	h2 {
