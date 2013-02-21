@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="page">
+	{% include fred-head.html %}
+	<article id="post">
+		<header>
+			<h2 id="post-title">{{ page.title }}</h2>
+		</header>
+		<div class="entry-content">
+			{{ content }}
+		</div>
+	</article>
+</body>
+</html>
