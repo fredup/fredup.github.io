@@ -1,0 +1,47 @@
+.fred-head {
+	@include pad(1,1);
+	clear: both;
+	margin: 20px 0;
+	@include clearfix;
+}
+
+.fred-logo {
+	@include span-columns(4, 16);
+}
+
+.logo {
+	font: 28px 'Source Code Pro';
+	text-decoration: none;
+}
+
+.fred-nav {
+	@include span-columns(10 omega, 16);
+
+	& > ul {
+		list-style: none;
+		float: right;
+		margin: 0;
+
+		& > li {
+			float: left;
+		}
+	}
+}
+
+.fred-nav-link {
+	display: block;
+	padding: 9px 12px;
+	text-decoration: none;
+	background: #F0F0F0;
+	@include border-radius(3px);
+	margin: 0 0 0 10px;
+
+	&:hover {
+		color: white;
+		background: darken(blue, 20%);
+	}
+}
+
+.fred-head-mini {
+	
+}

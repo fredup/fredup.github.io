@@ -1,7 +1,7 @@
 # FRED
 The FRont End Developers' Meetup. You can start a branch of FRED in your city by filing a pull request.
 
-Requires ruby.
+Requires Ruby 1.9.3.
 
 ```
 gem install bundler

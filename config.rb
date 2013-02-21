@@ -1,5 +1,4 @@
 require 'susy'
 
-css_dir = 'css'
-sass_dir = 'sass'
+sass_dir = '_sass'
 relative_assets = true

@@ -4,6 +4,7 @@ prefix: Bflo
 layout: fred
 logo: logo.png
 photo: buffalo.jpg
+latlong: 42.890594,-78.876601
 ---
 
 BfloFRED (BuffaloFRED) is the inaugural FRED group, and has been running since September 2012.

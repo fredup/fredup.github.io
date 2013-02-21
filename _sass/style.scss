@@ -1,0 +1,20 @@
+// External imports
+@import "susy";
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+@import "vendor/normalize/2.1.0/normalize";
+
+body {
+	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+// Grid settings
+@import "layout/grid";
+
+.fred {
+	@include container;
+}
+
+// Layout imports
+@import "layout/fred-head";
+@import "layout/group";
