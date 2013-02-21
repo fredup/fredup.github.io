@@ -1,26 +1,27 @@
 .fred-head {
 	@include pad(1,1);
+	padding-top: 20px;
+	padding-bottom: 20px;
 	clear: both;
-	margin: 20px 0;
 	@include clearfix;
 }
 
-.fred-logo {
-	@include span-columns(4, 16);
-}
-
 .logo {
-	font: 900 28px $font-monospace;
 	text-decoration: none;
+	background: url(/img/logo-300x300.png);
+	width: 300px;
+	height: 300px;
+	text-indent: -9999px;
+	display: block;
+	margin: 0 auto;
 }
 
 .fred-nav {
-	@include span-columns(10 omega, 16);
+	width: 530px;
+	margin: 20px auto;
 
 	& > ul {
 		list-style: none;
-		float: right;
-		margin: 0;
 
 		& > li {
 			float: left;
@@ -29,19 +30,16 @@
 }
 
 .fred-nav-link {
+	color: $white;
 	display: block;
 	padding: 9px 12px;
 	text-decoration: none;
-	background: #F0F0F0;
-	@include border-radius(3px);
+	background: $blue-med;
+	border: 3px solid $blue-light;
+	@include border-radius(5px);
 	margin: 0 0 0 10px;
 
 	&:hover {
-		color: white;
-		background: darken(blue, 20%);
+		background: $blue-light;
 	}
-}
-
-.fred-head-mini {
-	
 }
