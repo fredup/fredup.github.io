@@ -4,8 +4,17 @@
 @import "compass/utilities/general/clearfix";
 @import "vendor/normalize/2.1.0/normalize";
 
+$font-monospace: 'Source Code Pro', monospace;
+
 body {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	margin-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-monospace;
+	font-weight: 600;
+	margin-top: 2em;
 }
 
 // Grid settings

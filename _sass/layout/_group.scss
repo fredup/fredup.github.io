@@ -1,16 +1,22 @@
 .fred-group-header {
-	font: 36px 'Source Code Pro';
 	margin: 0 0 20px;
 	padding: 10px 0;
 	text-align: center;
 	@include span-columns(16 omega, 16);
+	background-color: #666;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	color: #FFF;
-	@include text-shadow(0 1px 1px black);
+	@include text-shadow(0 0 12px rgba(0, 0, 0, 0.6), 0 1px 1px black);
 	@include border-radius(6px);
 	@include box-shadow(inset 0px -1px 6px black);
+
+	h2 {
+		font: 900 48px $font-monospace;
+		letter-spacing: -1px;
+		margin: 1em 0;
+	}
 }
 
 .fred-group-content{
@@ -21,12 +27,16 @@
 	@include span-columns(8, 14);
 
 	& > p:first-child {
-		font-size: 125%;
+		font-size: 140%;
+		line-height: 1.5;
+		padding: 0 0 20px;
+		border-bottom: 1px dotted #CCC;
 	}
 }
 
 .fred-group-map {
 	@include span-columns(6 omega, 14);
+	margin: 20px 0;
 }
 
 .fred-group-map-frame {
