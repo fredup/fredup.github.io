@@ -6,27 +6,31 @@
 
 $font-monospace: 'Source Code Pro', monospace;
 
+// Colours
+$white: #fff;
+$grey: #eee;
+$blue-dark: #336;
+$blue-med: #339;
+$blue-light: #66f;
+
 body {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	margin-bottom: 2em;
+	background: $blue-dark;
+	background: url(/img/bg.png);
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-monospace;
 	font-weight: 600;
-	margin-top: 2em;
+	margin-top: 0;
 }
-
-// Colours
-$grey: #eee;
-$green: #00a651;
 
 // Grid settings
 @import "layout/grid";
 
 .fred {
 	@include container;
-	max-width: 1200px;
+	max-width: 960px;
 }
 
 // Layout imports
