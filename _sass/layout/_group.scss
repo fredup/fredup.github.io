@@ -1,3 +1,16 @@
+.fred-group {
+	float: left;
+	width: 98%;
+	padding: 1%;
+	border-radius: 10px;
+	background: $grey;
+}
+
+.page .fred-group {
+	width: 92%;
+	padding: 4%;
+}
+
 .fred-group-header {
 	margin: 0 0 20px;
 	padding: 10px 0;
@@ -8,8 +21,8 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	color: #FFF;
+	border-radius: 6px 6px 0 0;
 	@include text-shadow(0 0 12px rgba(0, 0, 0, 0.6), 0 1px 1px black);
-	@include border-radius(6px);
 	@include box-shadow(inset 0px -1px 6px black);
 
 	h2 {
@@ -20,7 +33,7 @@
 }
 
 .fred-group-content{
-	@include pad(1,1);
+	@include pad(.5,.5);
 }
 
 .fred-group-info {
