@@ -1,0 +1,13 @@
+.fred-page {
+	background: $color-background;
+}
+
+.fred-page-header {
+	@extend .fred-group-header;
+}
+
+.fred-page-content {
+	@extend .fred-group-content;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}

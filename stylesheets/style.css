@@ -511,13 +511,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 7, ../_sass/layout/_group.scss */
-.page .fred-group {
-  width: 92%;
-  padding: 4%;
-}
-
-/* line 12, ../_sass/layout/_group.scss */
-.fred-group-header {
+.fred-group-header, .fred-page-header {
   margin: 0 0 20px;
   padding: 10px 0;
   text-align: center;
@@ -533,27 +527,27 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.6), 0 1px 1px black;
 }
-/* line 24, ../_sass/layout/_group.scss */
-.fred-group-header h2 {
+/* line 19, ../_sass/layout/_group.scss */
+.fred-group-header h2, .fred-page-header h2 {
   font: 900 48px "Source Code Pro", monospace;
   letter-spacing: -1px;
   margin: 1em 0;
 }
 
-/* line 31, ../_sass/layout/_group.scss */
-.fred-group-content {
+/* line 26, ../_sass/layout/_group.scss */
+.fred-group-content, .fred-page-content {
   padding-left: 6.34921%;
   padding-right: 6.34921%;
 }
 
-/* line 35, ../_sass/layout/_group.scss */
+/* line 30, ../_sass/layout/_group.scss */
 .fred-group-info {
   width: 56.36364%;
   float: left;
   margin-right: 1.81818%;
   display: inline;
 }
-/* line 38, ../_sass/layout/_group.scss */
+/* line 33, ../_sass/layout/_group.scss */
 .fred-group-info > p:first-child {
   font-size: 140%;
   line-height: 1.5;
@@ -561,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px dotted #cccccc;
 }
 
-/* line 46, ../_sass/layout/_group.scss */
+/* line 41, ../_sass/layout/_group.scss */
 .fred-group-map {
   width: 41.81818%;
   float: right;
@@ -571,8 +565,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px 0;
 }
 
-/* line 51, ../_sass/layout/_group.scss */
+/* line 46, ../_sass/layout/_group.scss */
 .fred-group-map-frame {
   width: 100%;
   height: 450px;
+}
+
+/* line 1, ../_sass/layout/_page.scss */
+.fred-page {
+  background: #eeeeee;
+}
+
+/* line 9, ../_sass/layout/_page.scss */
+.fred-page-content {
+  padding-top: 15px;
+  padding-bottom: 10px;
 }

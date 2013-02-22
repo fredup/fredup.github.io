@@ -4,11 +4,11 @@
 <body class="page">
 	<div class="fred">
 		{% include fred-head.html %}
-		<article class="fred-group">
-			<header>
+		<article class="fred-page">
+			<header class="fred-page-header">
 				<h2 id="post-title">{{ page.title }}</h2>
 			</header>
-			<div class="entry-content">
+			<div class="fred-page-content">
 				{{ content }}
 			</div>
 		</article>
