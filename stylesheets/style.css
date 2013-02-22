@@ -404,20 +404,20 @@ table {
   border-spacing: 0;
 }
 
-/* line 17, ../_sass/style.scss */
+/* line 18, ../_sass/style.scss */
 body {
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   background: #333366 url('../images/bg.png?1361537212');
 }
 
-/* line 22, ../_sass/style.scss */
+/* line 23, ../_sass/style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Code Pro", monospace;
   font-weight: 600;
   margin-top: 0;
 }
 
-/* line 31, ../_sass/style.scss */
+/* line 32, ../_sass/style.scss */
 .fred {
   *zoom: 1;
   padding-left: 1em;

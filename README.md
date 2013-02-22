@@ -4,17 +4,17 @@ The FRont End Developers' Meetup. You can start a branch of FRED in your city by
 Requires Ruby 1.9.3.
 
 ```
+rvm install 1.9.3
+rvm use 1.9.3
+git clone {{url to repo}}
+cd {{repo dir}}
 gem install bundler
-bundle
-```
-
-Run the site with:
-
-```
+bundle install
+git submodule update --init
 rake
 ```
 
-Add your city with:
+**Coming soon:** Add your city with:
 
 ```
 rake new_fred

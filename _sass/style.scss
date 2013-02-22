@@ -1,10 +1,11 @@
 // External imports
-
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
 @import "../_vendor/sass/susy/sass/susy";
 @import "../_vendor/sass/normalize/2.1.0/normalize";
 
+// Font stacks
+$font-default: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 $font-monospace: 'Source Code Pro', monospace;
 
 // Colours
@@ -15,7 +16,7 @@ $color-brand-primary: #339;
 $color-brand-focus: #66f;
 
 body {
-	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	font-family: $font-default;
 	background: $color-brand-dark image-url('bg.png');
 }
 
