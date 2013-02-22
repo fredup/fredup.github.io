@@ -1,9 +1,7 @@
 .fred-group {
 	float: left;
-	width: 98%;
-	padding: 1%;
-	border-radius: 10px;
-	background: $grey;
+	background: $color-background;
+	padding: 0 0 20px;
 }
 
 .page .fred-group {
@@ -21,9 +19,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	color: #FFF;
-	border-radius: 6px 6px 0 0;
 	@include text-shadow(0 0 12px rgba(0, 0, 0, 0.6), 0 1px 1px black);
-	@include box-shadow(inset 0px -1px 6px black);
 
 	h2 {
 		font: 900 48px $font-monospace;
@@ -33,7 +29,7 @@
 }
 
 .fred-group-content{
-	@include pad(.5,.5);
+	@include pad(1,1);
 }
 
 .fred-group-info {

@@ -6,22 +6,27 @@
 	@include clearfix;
 }
 
+.fred-logo {
+	@include span-columns(3, 14);
+}
+
 .logo {
 	text-decoration: none;
 	background: url(/img/logo-300x300.png);
-	width: 300px;
-	height: 300px;
+	background-size: cover;
+	width: 150px;
+	height: 150px;
 	text-indent: -9999px;
 	display: block;
 	margin: 0 auto;
 }
 
 .fred-nav {
-	width: 530px;
-	margin: 20px auto;
+	@include span-columns(11 omega, 14);
 
 	& > ul {
 		list-style: none;
+		float: right;
 
 		& > li {
 			float: left;
@@ -30,16 +35,16 @@
 }
 
 .fred-nav-link {
-	color: $white;
+	color: $color-link;
 	display: block;
 	padding: 9px 12px;
 	text-decoration: none;
-	background: $blue-med;
-	border: 3px solid $blue-light;
+	background: $color-brand-primary;
+	border: 3px solid $color-brand-focus;
 	@include border-radius(5px);
 	margin: 0 0 0 10px;
 
 	&:hover {
-		background: $blue-light;
+		background: $color-brand-focus;
 	}
 }

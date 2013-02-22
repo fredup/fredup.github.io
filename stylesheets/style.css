@@ -425,9 +425,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 960px;
+  padding: 0;
 }
-/* line 38, ../../../../../../Users/simonowen/.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .fred:after {
   content: "";
   display: table;
@@ -446,31 +446,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 9, ../_sass/layout/_fred-head.scss */
+.fred-logo {
+  width: 20%;
+  float: left;
+  margin-right: 1.81818%;
+  display: inline;
+}
+
+/* line 13, ../_sass/layout/_fred-head.scss */
 .logo {
   text-decoration: none;
   background: url(/img/logo-300x300.png);
-  width: 300px;
-  height: 300px;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
   text-indent: -9999px;
   display: block;
   margin: 0 auto;
 }
 
-/* line 19, ../_sass/layout/_fred-head.scss */
+/* line 24, ../_sass/layout/_fred-head.scss */
 .fred-nav {
-  width: 530px;
-  margin: 20px auto;
+  width: 78.18182%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
 }
-/* line 23, ../_sass/layout/_fred-head.scss */
+/* line 27, ../_sass/layout/_fred-head.scss */
 .fred-nav > ul {
   list-style: none;
+  float: right;
 }
-/* line 26, ../_sass/layout/_fred-head.scss */
+/* line 31, ../_sass/layout/_fred-head.scss */
 .fred-nav > ul > li {
   float: left;
 }
 
-/* line 32, ../_sass/layout/_fred-head.scss */
+/* line 37, ../_sass/layout/_fred-head.scss */
 .fred-nav-link {
   color: white;
   display: block;
@@ -485,7 +498,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   margin: 0 0 0 10px;
 }
-/* line 42, ../_sass/layout/_fred-head.scss */
+/* line 47, ../_sass/layout/_fred-head.scss */
 .fred-nav-link:hover {
   background: #6666ff;
 }
@@ -493,19 +506,17 @@ h1, h2, h3, h4, h5, h6 {
 /* line 1, ../_sass/layout/_group.scss */
 .fred-group {
   float: left;
-  width: 98%;
-  padding: 1%;
-  border-radius: 10px;
   background: #eeeeee;
+  padding: 0 0 20px;
 }
 
-/* line 9, ../_sass/layout/_group.scss */
+/* line 7, ../_sass/layout/_group.scss */
 .page .fred-group {
   width: 92%;
   padding: 4%;
 }
 
-/* line 14, ../_sass/layout/_group.scss */
+/* line 12, ../_sass/layout/_group.scss */
 .fred-group-header {
   margin: 0 0 20px;
   padding: 10px 0;
@@ -520,33 +531,29 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: center center;
   color: #FFF;
-  border-radius: 6px 6px 0 0;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.6), 0 1px 1px black;
-  -webkit-box-shadow: inset 0px -1px 6px black;
-  -moz-box-shadow: inset 0px -1px 6px black;
-  box-shadow: inset 0px -1px 6px black;
 }
-/* line 28, ../_sass/layout/_group.scss */
+/* line 24, ../_sass/layout/_group.scss */
 .fred-group-header h2 {
   font: 900 48px "Source Code Pro", monospace;
   letter-spacing: -1px;
   margin: 1em 0;
 }
 
-/* line 35, ../_sass/layout/_group.scss */
+/* line 31, ../_sass/layout/_group.scss */
 .fred-group-content {
-  padding-left: 2.38095%;
-  padding-right: 2.38095%;
+  padding-left: 6.34921%;
+  padding-right: 6.34921%;
 }
 
-/* line 39, ../_sass/layout/_group.scss */
+/* line 35, ../_sass/layout/_group.scss */
 .fred-group-info {
   width: 56.36364%;
   float: left;
   margin-right: 1.81818%;
   display: inline;
 }
-/* line 42, ../_sass/layout/_group.scss */
+/* line 38, ../_sass/layout/_group.scss */
 .fred-group-info > p:first-child {
   font-size: 140%;
   line-height: 1.5;
@@ -554,7 +561,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px dotted #cccccc;
 }
 
-/* line 50, ../_sass/layout/_group.scss */
+/* line 46, ../_sass/layout/_group.scss */
 .fred-group-map {
   width: 41.81818%;
   float: right;
@@ -564,7 +571,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px 0;
 }
 
-/* line 55, ../_sass/layout/_group.scss */
+/* line 51, ../_sass/layout/_group.scss */
 .fred-group-map-frame {
   width: 100%;
   height: 450px;

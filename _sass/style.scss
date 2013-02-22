@@ -7,15 +7,15 @@
 $font-monospace: 'Source Code Pro', monospace;
 
 // Colours
-$white: #fff;
-$grey: #eee;
-$blue-dark: #336;
-$blue-med: #339;
-$blue-light: #66f;
+$color-link: #fff;
+$color-background: #eee;
+$color-brand-dark: #336;
+$color-brand-primary: #339;
+$color-brand-focus: #66f;
 
 body {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	background: $blue-dark;
+	background: $color-brand-dark;
 	background: url(/img/bg.png);
 }
 
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fred {
 	@include container;
-	max-width: 960px;
+	padding: 0;
 }
 
 // Layout imports
