@@ -1,8 +1,9 @@
 // External imports
-@import "susy";
+
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
-@import "vendor/normalize/2.1.0/normalize";
+@import "../_vendor/sass/susy/sass/susy";
+@import "../_vendor/sass/normalize/2.1.0/normalize";
 
 $font-monospace: 'Source Code Pro', monospace;
 
