@@ -407,18 +407,17 @@ table {
 /* line 16, ../_sass/style.scss */
 body {
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
-  background: #333366;
-  background: url(/img/bg.png);
+  background: #333366 url('../images/bg.png?1361537212');
 }
 
-/* line 22, ../_sass/style.scss */
+/* line 21, ../_sass/style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Code Pro", monospace;
   font-weight: 600;
   margin-top: 0;
 }
 
-/* line 31, ../_sass/style.scss */
+/* line 30, ../_sass/style.scss */
 .fred {
   *zoom: 1;
   padding-left: 1em;
@@ -456,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 13, ../_sass/layout/_fred-head.scss */
 .logo {
   text-decoration: none;
-  background: url(/img/logo-300x300.png);
+  background: url('../images/logo-300x300.png?1361537212');
   background-size: cover;
   width: 150px;
   height: 150px;

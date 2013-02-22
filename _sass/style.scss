@@ -15,8 +15,7 @@ $color-brand-focus: #66f;
 
 body {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	background: $color-brand-dark;
-	background: url(/img/bg.png);
+	background: $color-brand-dark image-url('bg.png');
 }
 
 h1, h2, h3, h4, h5, h6 {
