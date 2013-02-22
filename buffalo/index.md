@@ -13,6 +13,12 @@ BfloFRED (BuffaloFRED) is the inaugural FRED group, and has been running since S
 
 BfloFRED is always looking for sponsors. Get in touch if you're interested.
 
+### Connect with us
+
+URL &rArr; [http://bflofred.com](http://bflofred.com)
+
+Github Organization &rArr; [https://github.com/BfloFRED](https://github.com/BfloFRED)
+
 ### Meetup information
 
 BfloFRED meets at [CoworkBuffalo](http://coworkbuffalo.com/) roughly once a month.
