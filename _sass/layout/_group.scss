@@ -1,5 +1,8 @@
 .fred-group {
-	float: left;
+	// removing this as it was causing the
+	// page to go completely to the left.
+	//float: left;
+	overflow: auto;
 	background: $color-background;
 	padding: 0 0 20px;
 }

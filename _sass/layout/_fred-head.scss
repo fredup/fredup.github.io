@@ -4,6 +4,7 @@
 	padding-bottom: 20px;
 	clear: both;
 	@include clearfix;
+	background: rgba(15, 64, 144, 0.54);
 }
 
 .fred-logo {
@@ -23,7 +24,7 @@
 
 .fred-nav {
 	@include span-columns(11 omega, 14);
-
+	margin-top: 2.25em; // Just a random number. no big deal.
 	& > ul {
 		list-style: none;
 		float: right;
@@ -47,4 +48,9 @@
 	&:hover {
 		background: $color-brand-focus;
 	}
+}
+
+.fred-foot {
+	overflow: auto;
+	background: rgba(15, 64, 144, 0.54);
 }
