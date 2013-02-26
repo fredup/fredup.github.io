@@ -27,6 +27,6 @@ Details are available at [NextPlex.com](http://nextplex.com/buffalo-ny/resources
 
 ### Contact information
 
-For more info about SampleFRED, contact:
+For more info about BfloFRED, contact:
 
 + Dennis Gaebel: [@gryghostvisuals](http://twitter.com/gryghostvisuals)
