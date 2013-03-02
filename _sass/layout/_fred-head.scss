@@ -1,56 +1,42 @@
-.fred-head {
+.fred-head,
+.fred-foot {
 	@include pad(1,1);
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 	clear: both;
 	@include clearfix;
-	background: rgba(15, 64, 144, 0.54);
+	background: #fff image-url('ascii-bg.png') 50% 0;
+	position: relative;
+	text-align: center;
 }
 
 .fred-logo {
-	@include span-columns(3, 14);
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	max-width: 600px;
 }
 
-.logo {
-	text-decoration: none;
-	background: image-url('logo-300x300.png');
-	background-size: cover;
-	width: 150px;
-	height: 150px;
-	text-indent: -9999px;
-	display: block;
-	margin: 0 auto;
+.fred-logo li {
+	float: left;
+	width: 30%;
+	margin-right: 3.33%;
 }
 
-.fred-nav {
-	@include span-columns(11 omega, 14);
-	margin-top: 2.25em; // Just a random number. no big deal.
-	& > ul {
-		list-style: none;
-		float: right;
-
-		& > li {
-			float: left;
-		}
-	}
+.fred-logo li:last-of-type {
+	margin: 0;
 }
 
-.fred-nav-link {
-	color: $color-link;
-	display: block;
-	padding: 9px 12px;
-	text-decoration: none;
-	background: $color-brand-primary;
-	border: 3px solid $color-brand-focus;
-	@include border-radius(5px);
-	margin: 0 0 0 10px;
-
-	&:hover {
-		background: $color-brand-focus;
-	}
+.fred-logo img {
+	max-width: 100%;
 }
 
-.fred-foot {
-	overflow: auto;
-	background: rgba(15, 64, 144, 0.54);
+.fred-logo li a {
+	transition: all .5s;
+	opacity: .5;
+}
+
+.fred-logo li a:hover,
+.fred-logo li .logo {
+	opacity: 1;
 }

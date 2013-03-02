@@ -11,3 +11,82 @@
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
+
+section {
+	text-align: center;
+	color: #fff;
+	padding: 100px;
+	font-family: $font-monospace;
+	font-weight: 300;
+	line-height: 1.8em;
+	position: relative;
+}
+
+section ul {
+	display: inline-block;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+section ul li {
+	list-style: none;
+	float: left;
+}
+
+section .current-freds {
+	text-transform: uppercase;
+}
+
+section .splitter {
+	margin: 0 10px;
+}
+
+section ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section h2 {
+	font-size: 2em;
+}
+
+.wrap {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.what {
+	background: #666;
+	color: #ccc;
+
+	h2 {
+		color: #fff;
+	}
+
+}
+
+.get-involved {
+	background: #339 image-url('arrow-666.png') no-repeat 50% 0;
+	color: #ccc;
+	padding-top: 150px;
+
+	h2 {
+		color: #fff;
+	}
+
+}
+
+.who {
+	background: #eee image-url('arrow-339.png') no-repeat 50% 0;;
+	color: #999;
+	padding-top: 150px;
+
+	h2 {
+		color: #339;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+}
