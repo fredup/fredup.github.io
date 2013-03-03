@@ -10,33 +10,16 @@
 	text-align: center;
 }
 
-.fred-logo {
+.fredup-welcome {
 	list-style: none;
 	padding: 0;
 	display: inline-block;
 	max-width: 600px;
-}
-
-.fred-logo li {
-	float: left;
-	width: 30%;
-	margin-right: 3.33%;
-}
-
-.fred-logo li:last-of-type {
-	margin: 0;
-}
-
-.fred-logo img {
-	max-width: 100%;
-}
-
-.fred-logo li a {
-	transition: all .5s;
-	opacity: .5;
-}
-
-.fred-logo li a:hover,
-.fred-logo li .logo {
-	opacity: 1;
+	.logo {
+		@include transition(.3s opacity ease-in-out);
+		opacity: .85;
+		&:hover {
+			opacity: 1;
+		}
+	}
 }

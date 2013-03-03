@@ -1,32 +1,66 @@
-// External imports
+// ==========================================================================
+//
+// $External imports
+//
+// ==========================================================================
+
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
 @import "../_vendor/sass/susy/sass/susy";
 @import "../_vendor/sass/normalize/2.1.0/normalize";
 
-// Font stacks
-$font-default: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-$font-monospace: 'Source Code Pro', monospace;
 
-// Colours
+// ==========================================================================
+//
+// $Variables
+//
+// ==========================================================================
+
+// Colors
 $color-link: #fff;
 $color-background: #eee;
 $color-brand-dark: #336;
 $color-brand-primary: #339;
 $color-brand-focus: #66f;
 
+
+// ==========================================================================
+//
+// $Fonts
+//
+// ==========================================================================
+
+// Font Stacks
+@import "layout/fonts";
+
+$font-default: 'OpenSansRegular', sans-serif;
+$font-monospace: 'SourceCodeProRegular', monospace;
+
 body {
 	font-family: $font-default;
+	font-weight: normal;
+	font-style: normal;
 	background: $color-brand-dark image-url('bg.png');
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: $font-monospace;
-	font-weight: 600;
+	font-weight: normal;
+	font-style: normal;
 	margin-top: 0;
 }
 
-// Grid settings
+// ==========================================================================
+//
+// $Grid settings
+//
+// ==========================================================================
+
 @import "layout/grid";
 
 .fred {
