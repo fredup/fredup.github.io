@@ -407,7 +407,7 @@ table {
 /* line 18, ../_sass/style.scss */
 body {
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
-  background: #333366 url('../images/bg.png?1361554775');
+  background: #333366 url('../images/bg.png?1361836774');
 }
 
 /* line 23, ../_sass/style.scss */
@@ -426,88 +426,63 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   padding: 0;
 }
-/* line 38, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../Users/simonowen/.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .fred:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 1, ../_sass/layout/_fred-head.scss */
-.fred-head {
+/* line 2, ../_sass/layout/_fred-head.scss */
+.fred-head,
+.fred-foot {
   padding-left: 6.34921%;
   padding-right: 6.34921%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   clear: both;
   overflow: hidden;
   *zoom: 1;
-  background: rgba(15, 64, 144, 0.54);
+  background: white url('../images/ascii-bg.png?1362229749') 50% 0;
+  position: relative;
+  text-align: center;
 }
 
-/* line 10, ../_sass/layout/_fred-head.scss */
+/* line 13, ../_sass/layout/_fred-head.scss */
 .fred-logo {
-  width: 20%;
-  float: left;
-  margin-right: 1.81818%;
-  display: inline;
-}
-
-/* line 14, ../_sass/layout/_fred-head.scss */
-.logo {
-  text-decoration: none;
-  background: url('../images/logo-300x300.png?1361554775');
-  background-size: cover;
-  width: 150px;
-  height: 150px;
-  text-indent: -9999px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* line 25, ../_sass/layout/_fred-head.scss */
-.fred-nav {
-  width: 78.18182%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-  margin-top: 2.25em;
-}
-/* line 28, ../_sass/layout/_fred-head.scss */
-.fred-nav > ul {
   list-style: none;
-  float: right;
+  padding: 0;
+  display: inline-block;
+  max-width: 600px;
 }
-/* line 32, ../_sass/layout/_fred-head.scss */
-.fred-nav > ul > li {
+
+/* line 20, ../_sass/layout/_fred-head.scss */
+.fred-logo li {
   float: left;
+  width: 30%;
+  margin-right: 3.33%;
 }
 
-/* line 38, ../_sass/layout/_fred-head.scss */
-.fred-nav-link {
-  color: white;
-  display: block;
-  padding: 9px 12px;
-  text-decoration: none;
-  background: #333399;
-  border: 3px solid #6666ff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  margin: 0 0 0 10px;
-}
-/* line 48, ../_sass/layout/_fred-head.scss */
-.fred-nav-link:hover {
-  background: #6666ff;
+/* line 26, ../_sass/layout/_fred-head.scss */
+.fred-logo li:last-of-type {
+  margin: 0;
 }
 
-/* line 53, ../_sass/layout/_fred-head.scss */
-.fred-foot {
-  overflow: auto;
-  background: rgba(15, 64, 144, 0.54);
+/* line 30, ../_sass/layout/_fred-head.scss */
+.fred-logo img {
+  max-width: 100%;
+}
+
+/* line 34, ../_sass/layout/_fred-head.scss */
+.fred-logo li a {
+  transition: all 0.5s;
+  opacity: .5;
+}
+
+/* line 40, ../_sass/layout/_fred-head.scss */
+.fred-logo li a:hover,
+.fred-logo li .logo {
+  opacity: 1;
 }
 
 /* line 1, ../_sass/layout/_group.scss */
@@ -520,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 10, ../_sass/layout/_group.scss */
 .fred-group-hex {
   padding: 2.5em 0 0;
-  background: url('../images/hexagon.png?1361553219') center center no-repeat;
+  background: url('../images/hexagon.png?1361836774') center center no-repeat;
 }
 
 /* line 15, ../_sass/layout/_group.scss */
@@ -600,4 +575,91 @@ h1, h2, h3, h4, h5, h6 {
 .fred-page-content {
   padding-top: 15px;
   padding-bottom: 10px;
+}
+
+/* line 15, ../_sass/layout/_page.scss */
+section {
+  text-align: center;
+  color: #fff;
+  padding: 100px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+  line-height: 1.8em;
+  position: relative;
+}
+
+/* line 25, ../_sass/layout/_page.scss */
+section ul {
+  display: inline-block;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+/* line 31, ../_sass/layout/_page.scss */
+section ul li {
+  list-style: none;
+  float: left;
+}
+
+/* line 36, ../_sass/layout/_page.scss */
+section .current-freds {
+  text-transform: uppercase;
+}
+
+/* line 40, ../_sass/layout/_page.scss */
+section .splitter {
+  margin: 0 10px;
+}
+
+/* line 44, ../_sass/layout/_page.scss */
+section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 49, ../_sass/layout/_page.scss */
+section h2 {
+  font-size: 2em;
+}
+
+/* line 53, ../_sass/layout/_page.scss */
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* line 58, ../_sass/layout/_page.scss */
+.what {
+  background: #666;
+  color: #ccc;
+}
+/* line 62, ../_sass/layout/_page.scss */
+.what h2 {
+  color: #fff;
+}
+
+/* line 68, ../_sass/layout/_page.scss */
+.get-involved {
+  background: #333399 url('../images/arrow-666.png?1362235668') no-repeat 50% 0;
+  color: #ccc;
+  padding-top: 150px;
+}
+/* line 73, ../_sass/layout/_page.scss */
+.get-involved h2 {
+  color: #fff;
+}
+
+/* line 79, ../_sass/layout/_page.scss */
+.who {
+  background: #eeeeee url('../images/arrow-339.png?1362235734') no-repeat 50% 0;
+  color: #999;
+  padding-top: 150px;
+}
+/* line 84, ../_sass/layout/_page.scss */
+.who h2 {
+  color: #339;
+}
+/* line 88, ../_sass/layout/_page.scss */
+.who a {
+  text-decoration: none;
 }
