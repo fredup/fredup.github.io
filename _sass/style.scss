@@ -1,6 +1,6 @@
 // ==========================================================================
 //
-// $External imports
+// $Global Imports
 //
 // ==========================================================================
 
@@ -12,11 +12,10 @@
 
 // ==========================================================================
 //
-// $Variables
+// $Color Variables
 //
 // ==========================================================================
 
-// Colors
 $color-link: #fff;
 $color-background: #eee;
 $color-brand-dark: #336;
@@ -30,16 +29,12 @@ $color-brand-focus: #66f;
 //
 // ==========================================================================
 
-// Font Stacks
-@import "layout/fonts";
-
-$font-default: 'OpenSansRegular', sans-serif;
-$font-monospace: 'SourceCodeProRegular', monospace;
+$font-default: 'Open Sans', sans-serif;
+$font-monospace: 'Source Code Pro', monospace;
 
 body {
 	font-family: $font-default;
-	font-weight: normal;
-	font-style: normal;
+	font-weight: 300;
 	background: $color-brand-dark image-url('bg.png');
 }
 
@@ -50,10 +45,10 @@ h4,
 h5,
 h6 {
 	font-family: $font-monospace;
-	font-weight: normal;
-	font-style: normal;
+	font-weight: 600;
 	margin-top: 0;
 }
+
 
 // ==========================================================================
 //
@@ -72,3 +67,21 @@ h6 {
 @import "layout/fred-head";
 @import "layout/group";
 @import "layout/page";
+
+
+// ==========================================================================
+//
+// $Viewport
+//
+// ==========================================================================
+
+// http://dev.w3.org/csswg/css-device-adapt/
+// http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
+// for IE10 Snap Mode on Metro
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}

@@ -1,9 +1,9 @@
-sass_dir = '_sass'
+sass_dir = "_sass"
 images_dir = "images"
 relative_assets = true
 
 #Projects Font Directory
-fonts_dir = "fonts"
+#fonts_dir = "fonts"
 
 # Add support for repeating linear gradients
 # https://github.com/chriseppstein/compass/issues/401
