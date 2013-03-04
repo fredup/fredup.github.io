@@ -42,7 +42,9 @@
 }
 
 .fred-group-info {
-	@include span-columns(8, 14);
+	@media screen and (min-width: 49.6875em) {
+		@include span-columns(8, 14);
+	}
 
 	& > p:first-child {
 		font-size: 140%;
@@ -53,8 +55,10 @@
 }
 
 .fred-group-map {
-	@include span-columns(6 omega, 14);
 	margin: 20px 0;
+	@media screen and (min-width: 49.6875em) {
+		@include span-columns(6 omega, 14);
+	}
 }
 
 .fred-group-map-frame {

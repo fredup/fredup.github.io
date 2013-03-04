@@ -1,13 +1,21 @@
 .fred-head,
 .fred-foot {
 	@include pad(1,1);
-	padding-top: 120px;
-	padding-bottom: 120px;
 	clear: both;
 	@include clearfix;
 	background: #fff image-url('ascii-bg.png') 50% 0;
 	position: relative;
 	text-align: center;
+}
+
+.fred-head {
+	padding-top: 60px; // originally 120px
+	padding-bottom: 105px; // originally 120px
+}
+
+.fred-foot {
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .fredup-welcome {
