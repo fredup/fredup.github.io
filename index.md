@@ -16,6 +16,8 @@ layout: homepage
 			<li><a href="/buffalo/">Buffalo, <abbr title="New York">N.Y.</abbr></a></li>
 			<li class="splitter">//</li>
 			<li><a href="/manchester/">Manchester, <abbr title="United Kingdom">U.K.</abbr></a></li>
+			<li class="splitter">//</li>
+			<li><a href="/toronto/">Toronto, <abbr title="Ontario">O.N.</abbr></a></li>
 		</ul>
 	</div>
 </section>
