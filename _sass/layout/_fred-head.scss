@@ -26,6 +26,8 @@
 	.logo {
 		@include transition(.3s opacity ease-in-out);
 		opacity: .85;
+		margin-bottom: 20px;
+		display: block;
 		&:hover {
 			opacity: 1;
 		}
