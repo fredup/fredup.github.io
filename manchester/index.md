@@ -7,24 +7,29 @@ photo: manchester.jpg
 latlong: 53.479,-2.248
 ---
 
-Mcr_FRED (ManchesterFRED) is the latest FRED group, and is about to kick off in March 2013.
+ManchesterFRED (#McrFRED) is the latest FRED group.
+
+We had our first meetup on 20th March 2013.
+
+More details about the event can be found here:
+<http://simonowendesign.github.com/blog/2013/03/21/first-mcrfred/>
 
 ### Sponsors
 
-Mcr_FRED is always looking for sponsors. Please get in touch if you're interested.
+Thanks again to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and all the other sponsors.
 
-Money will go towards a venue for the event, filming and refreshments.
+Together we raised £126.34 for <http://www.codeclub.org.uk/>.
 
-All money left over will by donated to charity.
+If you'd like to sponsor the next #McrFRED, please [get in touch](http://simonowendesign.github.com/contact/).
 
-### Meetup information
+### Meetup Information
 
-Our first meetup will be on Wednesday 20th March 2013 from 18:30 to 21:00 at the wonderful [TechHub Manchester](http://manchester.techhub.com/).
+Would be great if you could take the time to fill out our feedback form, if you did attend, was there anything you think that could be improved? If you didn't, is there anything you'd like to be discussed? The more feedback we get, the better!
 
-For more information please see: <http://www.simonowendesign.co.uk/manchester-front-end-web-development-meetup/>
+**Feedback Form:** <http://bit.ly/ZLuFj0>
 
-### Contact information
+### Contact Information
 
-For anything else related to Mcr_FRED, please contact:
+For anything else related to #McrFRED, please contact:
 
 + Simon Owen: [@simonowendesign](http://twitter.com/simonowendesign)
