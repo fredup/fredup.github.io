@@ -3,7 +3,7 @@
 	@include pad(1,1);
 	clear: both;
 	@include clearfix;
-	background: #fff image-url('ascii-bg.png') 50% 0;
+	background: #fff image-url("ascii-bg.png") 50% 0;
 	position: relative;
 	text-align: center;
 }
