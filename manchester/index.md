@@ -12,7 +12,10 @@ ManchesterFRED (#McrFRED) is the latest FRED group.
 We had our first meetup on 20th March 2013.
 
 More details about the event can be found here:
-<http://simonowendesign.github.com/blog/2013/03/21/first-mcrfred/>
+<http://simonowendesign.co.uk/blog/2013/03/21/first-mcrfred/>
+
+We also have a second meetup planned:
+<http://simonowendesign.co.uk/blog/2013/03/27/mcrfred-round-2/>
 
 ### Sponsors
 
@@ -20,7 +23,7 @@ Thanks again to the wonderful [TechHub Manchester](http://manchester.techhub.com
 
 Together we raised £126.34 for <http://www.codeclub.org.uk/>.
 
-If you'd like to sponsor the next #McrFRED, please [get in touch](http://simonowendesign.github.com/contact/).
+If you'd like to sponsor the next #McrFRED, please [get in touch](http://simonowendesign.co.uk/contact/).
 
 ### Meetup Information
 
