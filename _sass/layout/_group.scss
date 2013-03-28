@@ -8,14 +8,11 @@
 }
 
 .fred-group-hex {
-	padding: 2.5em 0 0;
-	background: image-url("hexagon.png") center center no-repeat;
+	padding: 1.5em 0 0;
 }
 
 .fred-group-logo {
-	height: 150px;
-	position: relative;
-	top: -30px;
+	height: 250px;
 }
 
 .fred-group-header {
@@ -33,7 +30,7 @@
 	h2 {
 		font: 900 48px $font-monospace;
 		letter-spacing: -1px;
-		margin: 1em 0;
+		margin: 0 0 1em;
 	}
 }
 
