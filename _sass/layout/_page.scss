@@ -57,7 +57,6 @@ section .splitter {
 }
 
 section ul li a {
-	color: #fff;
 	text-decoration: none;
 }
 
@@ -67,16 +66,15 @@ section ul li a {
 }
 
 .what {
-	background: #666;
-	color: #ccc;
-
+	background: white;
+	color: #999;
 	h2 {
-		color: #fff;
+		color: #339;
 	}
 }
 
 .get-involved {
-	background: #339 image-url('arrow-666.png') no-repeat 50% 0;
+	background: #144497 image-url('arrow-666.png') no-repeat 50% 0;
 	color: #ccc;
 	padding-top: 150px;
 	h2 {

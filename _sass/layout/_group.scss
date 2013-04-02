@@ -36,6 +36,8 @@
 
 .fred-group-content{
 	@include pad(1,1);
+	max-width: 990px;
+	margin: 0 auto;
 }
 
 .fred-group-info {

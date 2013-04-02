@@ -3,9 +3,11 @@
 	@include pad(1,1);
 	clear: both;
 	@include clearfix;
-	background: #fff image-url("ascii-bg.png") 50% 0;
+	background-color: #0F076B;
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMEYwNzZCIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzM2E5OSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzM2E5OSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");
 	position: relative;
 	text-align: center;
+	color: #FFF;
 }
 
 .fred-head {
@@ -25,11 +27,44 @@
 	max-width: 600px;
 	.logo {
 		@include transition(.3s opacity ease-in-out);
-		opacity: .85;
 		margin-bottom: 20px;
 		display: block;
-		&:hover {
-			opacity: 1;
-		}
+		-webkit-animation: letter-spin 1s infinite;
+		-moz-animation: letter-spin 1s infinite;
+		animation: letter-spin 1s infinite;
+	}
+}
+
+
+// Logo Animation Keyframes
+// ============================================
+
+@-webkit-keyframes letter-spin {
+	0% {
+		@include transform(rotateY(0deg));
+		@include transform-origin(center center);
+	}
+	100% {
+		@include transform(rotateY(360deg));
+	}
+}
+
+@-moz-keyframes letter-spin {
+	0% {
+		@include transform(rotateY(0deg));
+		@include transform-origin(center center);
+	}
+	100% {
+		@include transform(rotateY(360deg));
+	}
+}
+
+@keyframes letter-spin {
+	0% {
+		@include transform(rotateY(0deg));
+		@include transform-origin(center center);
+	}
+	100% {
+		@include transform(rotateY(360deg));
 	}
 }
