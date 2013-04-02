@@ -29,9 +29,11 @@
 		@include transition(.3s opacity ease-in-out);
 		margin-bottom: 20px;
 		display: block;
-		-webkit-animation: letter-spin 1s infinite;
-		-moz-animation: letter-spin 1s infinite;
-		animation: letter-spin 1s infinite;
+		&:hover {
+			-webkit-animation: letter-spin 1s infinite;
+			-moz-animation: letter-spin 1s infinite;
+			animation: letter-spin 1s infinite;
+		}
 	}
 }
 
