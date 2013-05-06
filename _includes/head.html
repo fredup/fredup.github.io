@@ -8,20 +8,35 @@
 	{% else %}
 		<title>{{ page.title }} - {{ site.title }}</title>
 	{% endif %}
+
 	<!-- Google Indexing Robots -->
 	<meta name="robots" content="all">
+
 	<!-- Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+
 	<!-- http://t.co/dKP3o1e -->
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
+
 	<!-- Sets whether a web application runs in full-screen mode -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
+
 	<!-- Meta Description -->
 	<meta name="description" content="A Global Wide Community of Front-end Developer Meet up Groups. FRED stands for FRont End Developers, and is (as far as we can tell) the first multi-city meetup for front-end devs. FRED provides an outlet for front-end developers to talk and share about this exciting and crucial new craft.">
+
+	<!-- favicons -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+
 	<!-- Google Web Fonts -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:600" rel="stylesheet">
+
 	<!-- Styles -->
 	<link rel="stylesheet" href="/stylesheets/style.css?{{ site.time | date: "%y%m%d%H%M%S" }}">
 </head>
