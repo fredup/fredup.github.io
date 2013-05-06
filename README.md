@@ -32,8 +32,6 @@ git submodule update --init
 rake
 ```
 
-**Coming soon:** Add your city with:
+###Adding Your City:
 
-```
-rake new_fred
-```
+To add you city simply duplicate the “``sample``” directory within the root of this project and rename. Make sure to name it something cool that ends with “FRED” (all upper case). We've also provided the hexagon ``.psd`` logo within this directory for groups to customize and use for each individual chapter. Be creative as you'd like with this shape. Anything inside that is tasteful goes!

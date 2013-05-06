@@ -29,44 +29,5 @@
 		@include transition(.3s opacity ease-in-out);
 		margin-bottom: 20px;
 		display: block;
-		&:hover {
-			-webkit-animation: letter-spin 1s infinite;
-			-moz-animation: letter-spin 1s infinite;
-			animation: letter-spin 1s infinite;
-		}
-	}
-}
-
-
-// Logo Animation Keyframes
-// ============================================
-
-@-webkit-keyframes letter-spin {
-	0% {
-		@include transform(rotateY(0deg));
-		@include transform-origin(center center);
-	}
-	100% {
-		@include transform(rotateY(360deg));
-	}
-}
-
-@-moz-keyframes letter-spin {
-	0% {
-		@include transform(rotateY(0deg));
-		@include transform-origin(center center);
-	}
-	100% {
-		@include transform(rotateY(360deg));
-	}
-}
-
-@keyframes letter-spin {
-	0% {
-		@include transform(rotateY(0deg));
-		@include transform-origin(center center);
-	}
-	100% {
-		@include transform(rotateY(360deg));
 	}
 }
