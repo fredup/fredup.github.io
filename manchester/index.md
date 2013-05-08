@@ -7,29 +7,27 @@ photo: manchester.jpg
 latlong: 53.479,-2.248
 ---
 
-ManchesterFRED (#McrFRED) is the latest FRED group.
+ManchesterFRED (#McrFRED).
 
 We had our first meetup on 20th March 2013.
 
-More details about the event can be found here:
-<http://simonowendesign.co.uk/blog/2013/03/21/first-mcrfred/>
+More details about the events can be found here:
 
-We also have a second meetup planned:
-<http://simonowendesign.co.uk/blog/2013/03/27/mcrfred-round-2/>
+[First McrFRED](http://simonowendesign.co.uk/blog/2013/03/21/first-mcrfred/)
+
+[McrFRED Round 2](http://simonowendesign.co.uk/blog/2013/03/27/mcrfred-round-2/)
+
+[McrFRED gets Responsive](http://simonowendesign.co.uk/blog/2013/05/01/manchester-fred-gets-responsive/)
+
+[McrFRED 01 Videos](http://simonowendesign.co.uk/blog/2013/05/05/mcrfred-01-videos/)
+
+[McrFRED GitHub Workshop](http://simonowendesign.co.uk/blog/2013/05/08/mcrfred-round-3-github-workshop/)
 
 ### Sponsors
 
-Thanks again to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and all the other sponsors.
-
-Together we raised £126.34 for <http://www.codeclub.org.uk/>.
+Thanks to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and the sponsors.
 
 If you'd like to sponsor the next #McrFRED, please [get in touch](http://simonowendesign.co.uk/contact/).
-
-### Meetup Information
-
-Would be great if you could take the time to fill out our feedback form, if you did attend, was there anything you think that could be improved? If you didn't, is there anything you'd like to be discussed? The more feedback we get, the better!
-
-**Feedback Form:** <http://bit.ly/ZLuFj0>
 
 ### Contact Information
 
