@@ -21,3 +21,11 @@ Simon Owen
 twitter: [@simonowendesign](http://twitter.com/simonowendesign)
 
 ***
+
+![Joe Critchley](http://www.gravatar.com/avatar/c2e76b9427b5d44f3bb5504e7787b00a.png)
+
+Joe Critchley
+
+twitter: [@joecritchley](http://twitter.com/joecritchley)
+
+***
