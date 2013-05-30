@@ -51,3 +51,19 @@ Gareth Redfern
 twitter: [@garethredfern](http://twitter.com/simonowendesign)
 
 ***
+
+![Chris Hale](https://si0.twimg.com/profile_images/1914841326/chris.png)
+
+Chris Hale
+
+twitter: [@chrishaledesgin](http://twitter.com/chrishaledesign)
+
+***
+
+![Dave Mcpoland](http://si0.twimg.com/profile_images/1101589013/lnq_bigger.jpg)
+
+Dave Mcpoland
+
+twitter: [@davemcpoland](http://twitter.com/davemcpoland)
+
+***
