@@ -20,4 +20,10 @@ Simon Owen
 
 twitter: [@simonowendesign](http://twitter.com/simonowendesign)
 
+![Chris Hale](https://si0.twimg.com/profile_images/1914841326/chris.png)
+
+Chris Hale
+
+twitter: [@chrishaledesgin](http://twitter.com/chrishaledesign)
+
 ***
