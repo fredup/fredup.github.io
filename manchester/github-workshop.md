@@ -29,3 +29,10 @@ Joe Critchley
 twitter: [@joecritchley](http://twitter.com/joecritchley)
 
 ***
+
+![Jenny Wong](http://www.gravatar.com/avatar/b92fd0f4dfb7ed14c1441e4f4cf56542.png)
+
+Jenny Wong
+
+twitter: [@miss_jwo](http://twitter.com/miss_jwo)
+
