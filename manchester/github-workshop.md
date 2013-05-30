@@ -21,3 +21,11 @@ Simon Owen
 twitter: [@simonowendesign](http://twitter.com/simonowendesign)
 
 ***
+
+![Phil Val](https://si0.twimg.com/profile_images/501535203/pjv_facebook.jpg)
+
+Philip Valentino
+
+twitter: [@philipvalentino](http://twitter.com/philipvalentino)
+
+***
