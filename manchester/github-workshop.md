@@ -20,4 +20,10 @@ Simon Owen
 
 twitter: [@simonowendesign](http://twitter.com/simonowendesign)
 
+![Dave Mcpoland](http://si0.twimg.com/profile_images/1101589013/lnq_bigger.jpg)
+
+Dave Mcpoland
+
+twitter: [@davemcpoland](http://twitter.com/davemcpoland)
+
 ***
