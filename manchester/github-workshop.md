@@ -45,3 +45,9 @@ Philip Valentino
 twitter: [@philipvalentino](http://twitter.com/philipvalentino)
 
 ***
+
+Gareth Redfern
+
+twitter: [@garethredfern](http://twitter.com/simonowendesign)
+
+***
