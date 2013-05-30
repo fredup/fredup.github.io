@@ -67,3 +67,9 @@ Dave Mcpoland
 twitter: [@davemcpoland](http://twitter.com/davemcpoland)
 
 ***
+
+Jane Trimmer
+
+twitter: [@janetrimmer](http://twitter.com/janetrimmer)
+
+***
