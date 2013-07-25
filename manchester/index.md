@@ -23,6 +23,8 @@ More details about the events can be found here:
 
 [McrFRED GitHub Workshop](http://simonowendesign.co.uk/blog/2013/05/08/mcrfred-round-3-github-workshop/)
 
+[McrFRED 5 - 25th July 2013](http://simonowendesign.co.uk/blog/2013/05/08/mcrfred-round-3-github-workshop/)
+
 ### Sponsors
 
 Thanks to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and the sponsors.
