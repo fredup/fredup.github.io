@@ -23,7 +23,7 @@ More details about the events can be found here:
 
 [McrFRED GitHub Workshop](http://simonowendesign.co.uk/blog/2013/05/08/mcrfred-round-3-github-workshop/)
 
-[McrFRED 5 - 25th July 2013](http://simonowendesign.co.uk/blog/2013/05/08/mcrfred-round-3-github-workshop/)
+[McrFRED 5 - 25th July 2013](http://simonowendesign.co.uk/blog/2013/05/14/mcrfred-round-5-andrew-nesbitt/)
 
 ### Sponsors
 
