@@ -9,30 +9,26 @@ latlong: 53.479,-2.248
 
 ManchesterFRED (#McrFRED).
 
-We had our first meetup on 20th March 2013.
+We had our first meetup on 20th March 2013 and have been going strong ever since.
 
 More details about the events can be found here:
 
-[First McrFRED](http://simonowendesign.co.uk/blog/2013/03/21/first-mcrfred/)
-
-[McrFRED Round 2](http://simonowendesign.co.uk/blog/2013/03/27/mcrfred-round-2/)
-
-[McrFRED gets Responsive](http://simonowendesign.co.uk/blog/2013/05/01/manchester-fred-gets-responsive/)
-
-[McrFRED 01 Videos](http://simonowendesign.co.uk/blog/2013/05/05/mcrfred-01-videos/)
-
-[McrFRED GitHub Workshop](http://simonowendesign.co.uk/blog/2013/05/08/mcrfred-round-3-github-workshop/)
-
-[McrFRED 5 - 25th July 2013](http://simonowendesign.co.uk/blog/2013/05/14/mcrfred-round-5-andrew-nesbitt/)
+* [McrFRED 01](http://sow.so/mcrfred-01)
+* [McrFRED 02](http://sow.so/mcrfred-02)
+* [McrFRED 03](http://sow.so/mcrfred-03)
+* [McrFRED 04](http://sow.so/mcrfred-04)
+* [McrFRED 05](http://sow.so/mcrfred-05)
+* [McrFRED 06](http://sow.so/mcrfred-06)
+* [McrFRED 07](http://sow.so/mcrfred-07)
 
 ### Sponsors
 
 Thanks to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and the sponsors.
 
-If you'd like to sponsor the next #McrFRED, please [get in touch](http://simonowendesign.co.uk/contact/).
+:sparkling_heart: Be awesome... Sponsor, Donate http://sow.so/donate or Gittip http://sow.so/gittip. :sparkling_heart:
 
 ### Contact Information
 
-For anything else related to #McrFRED, please contact:
+For anything else related to #McrFRED, shout at me on twitter:
 
 + Simon Owen: [@simonowendesign](http://twitter.com/simonowendesign)
