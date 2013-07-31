@@ -25,7 +25,7 @@ More details about the events can be found here:
 
 Thanks to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and the sponsors.
 
-:sparkling_heart: Be awesome... Sponsor, Donate http://sow.so/donate or Gittip http://sow.so/gittip. :sparkling_heart:
+Be awesome... Sponsor, Donate http://sow.so/donate or Gittip http://sow.so/gittip.
 
 ### Contact Information
 
