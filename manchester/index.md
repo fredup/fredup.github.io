@@ -7,9 +7,19 @@ photo: manchester.jpg
 latlong: 53.479,-2.248
 ---
 
-ManchesterFRED (#McrFRED).
+## ManchesterFRED (#McrFRED).
 
 We had our first meetup on 20th March 2013 and have been going strong ever since.
+
+### Next meetup
+
+McrFRED 08 - Front-End Developer Halloween Quiz!
+
+Test your front-end skills in this fun quiz held at Common.
+
+[Sign up at attending.io](http://attending.io/events/mcrfred-08-front-end-developer-halloween-quiz/)
+
+### Previous meetups
 
 More details about the events can be found here:
 
@@ -31,4 +41,5 @@ Be awesome... Sponsor, Donate <http://sow.so/donate> or Gittip <http://sow.so/gi
 
 For anything else related to #McrFRED, shout at me on twitter:
 
++ Twitter: [@Mcr_FRED](https://twitter.com/Mcr_FRED)
 + Simon Owen: [@simonowendesign](http://twitter.com/simonowendesign)
