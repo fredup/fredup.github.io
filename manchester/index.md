@@ -11,31 +11,34 @@ latlong: 53.479,-2.248
 
 We had our first meetup on 20th March 2013 and have been going strong ever since.
 
-### Next meetup
 
-McrFRED 08 - Front-End Developer Halloween Quiz!
+### Email Signup
 
-Test your front-end skills in this fun quiz held at Common.
+Subscribe to the #McrFRED Newsletter:
 
-[Sign up at attending.io](http://attending.io/events/mcrfred-08-front-end-developer-halloween-quiz/)
+[Signup to Newsletter](http://eepurl.com/wcwJf)
 
-### Previous meetups
+
+### Previous Meetups
 
 More details about the events can be found here:
 
-* [McrFRED 01](http://sow.so/mcrfred-01)
-* [McrFRED 02](http://sow.so/mcrfred-02)
-* [McrFRED 03](http://sow.so/mcrfred-03)
-* [McrFRED 04](http://sow.so/mcrfred-04)
-* [McrFRED 05](http://sow.so/mcrfred-05)
-* [McrFRED 06](http://sow.so/mcrfred-06)
-* [McrFRED 07](http://sow.so/mcrfred-07)
+* [McrFRED](http://sow.so/mcrfred)
+
+
+### Videos
+
+Videos can be found here:
+
+* [Videos](http://www.youtube.com/simonowendesign)
+
 
 ### Sponsors
 
 Thanks to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and the sponsors.
 
 Be awesome... Sponsor, Donate <http://sow.so/donate> or Gittip <http://sow.so/gittip>.
+
 
 ### Contact Information
 
