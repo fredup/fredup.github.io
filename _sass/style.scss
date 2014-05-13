@@ -36,12 +36,13 @@ $color-brand-focus: #66f;
 //
 // ==========================================================================
 
-$font-default: 'Open Sans', sans-serif;
+$font-default: 'OpenSansSemibold', sans-serif;
 $font-monospace: 'Source Code Pro', monospace;
 
 body {
+	color: #333;
 	font-family: $font-default;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h1,
@@ -55,6 +56,23 @@ h6 {
 	margin-top: 0;
 	text-transform: uppercase;
 	letter-spacing: .1em;
+}
+
+.fred-group-content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		background: #dedede;
+		padding: 0.5em 1em;
+		margin-top: 2em;
+	}
+	p {
+		padding: 0.2em 1em 0.3em;
+		line-height: 1.5em;
+	}
 }
 
 

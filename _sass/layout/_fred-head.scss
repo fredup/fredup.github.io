@@ -6,7 +6,12 @@
 	background-color: #0F076B;
 	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMEYwNzZCIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzM2E5OSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzM2E5OSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");
 	background-position-x: 50%;
+	background-attachment: fixed;
 	color: #FFF;
+	@media screen and (max-width: 47.0625em) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 
@@ -17,12 +22,14 @@
 
 
 .fred-foot {
+	font-size: 1.5em;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
 
 
 .fredup-welcome {
+	font-size: 2em;
 	display: inline-block;
 	list-style: none;
 	max-width: 600px;
