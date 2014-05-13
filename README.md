@@ -28,13 +28,13 @@ The FRED organization itself was originally started by [Chris Van Patten](https:
 If you have this, skip ahead, if not head over to your command line (e.g. Terminal) `cd` to where you cloned the repo and run the following:
 
 ```bash
-gem install bundle
+gem install bundler
 ```
 
 If you get a permissions error try running as `sudo`:
 
 ```bash
-sudo gem install bundle
+sudo gem install bundler
 ```
 
 
