@@ -1,5 +1,6 @@
 server:  true
 auto:    true
 exclude: [compass.rb, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
+markdown: kramdown
 
 title:   FRED, the FRont End Developers meetup
