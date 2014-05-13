@@ -16,3 +16,8 @@ $background-grid-color: 'gold';
 
 // Background Grid
 @include sgs-change('debug', true);
+
+.fred {
+    @include clearfix;
+    // @include background-grid; // toggle on for development
+}

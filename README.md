@@ -25,7 +25,7 @@ The FRED organization itself was originally started by [Chris Van Patten](https:
 
 **Requires Ruby 2.1.2**
 
-If you have this, skip ahead, if not head over to your command line (e.g. Terminal) `cd` to where you cloned the repo and run the following:
+If you have bundler, skip ahead, if not head over to your command line (e.g. Terminal) and run the following (this installs bundler globally)…
 
 ```bash
 gem install bundler
