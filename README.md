@@ -25,23 +25,32 @@ The FRED organization itself was originally started by [Chris Van Patten](https:
 
 **Requires Ruby 2.1.2**
 
-If you have this, skip ahead, if not run:
+If you have this, skip ahead, if not head over to your command line (e.g. Terminal) `cd` to where you cloned the repo and run the following:
 
 ```bash
 gem install bundle
 ```
 
-Install Ruby Gems
+If you get a permissions error try running as `sudo`:
+
+```bash
+sudo gem install bundle
+```
+
+
+Install Ruby Gems:
 
 ```bash
 bundle install
 ```
 
-Start Jekyll, Compile Compass and Watch for Changes.
+
+Start Jekyll, Compile Compass and Watch for Changes:
 
 ```bash
 rake
 ```
+
 
 You should now be able to view in a browser at <http://localhost:4000/>
 
