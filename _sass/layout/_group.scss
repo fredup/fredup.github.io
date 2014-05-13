@@ -1,31 +1,42 @@
 .fred-group {
-	// removing this as it was causing the
-	// page to go completely to the left.
-	//float: left;
 	overflow: auto;
 	background: $color-background;
 	padding: 0 0 20px;
 }
 
+
+.fred-group-content {
+	padding: 40px 0 40px;
+	overflow: auto;
+	margin: 0 20px;
+
+	@include breakpoint($grid12) {
+		margin: auto;
+	}
+}
+
+
 .fred-group-hex {
 	padding: 1.5em 0 0;
 }
+
 
 .fred-group-logo {
 	height: 250px;
 }
 
+
 .fred-group-header {
 	margin: 0 0 20px;
 	padding: 10px 0;
 	text-align: center;
-	@include span-columns(16 omega, 16);
+	text-shadow: 0 0 12px rgba(0, 0, 0, 0.6),
+				 0 1px 1px black;
 	background-color: #666;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	color: #FFF;
-	@include text-shadow(0 0 12px rgba(0, 0, 0, 0.6), 0 1px 1px black);
 
 	h2 {
 		font: 900 48px $font-monospace;
@@ -34,31 +45,32 @@
 	}
 }
 
-.fred-group-content{
-	@include pad(1,1);
-	max-width: 990px;
-	margin: 0 auto;
-}
 
 .fred-group-info {
-	@media screen and (min-width: 49.6875em) {
-		@include span-columns(8, 14);
+	@include grid-span(5, 1);
+
+	@include breakpoint($grid12) {
+		@include grid-span(5, 2);
 	}
 
 	& > p:first-child {
 		font-size: 140%;
 		line-height: 1.5;
+		margin-top: 0;
 		padding: 0 0 20px;
 		border-bottom: 1px dotted #CCC;
 	}
 }
 
+
 .fred-group-map {
-	margin: 20px 0;
-	@media screen and (min-width: 49.6875em) {
-		@include span-columns(6 omega, 14);
+	@include grid-span(5, 1);
+
+	@include breakpoint($grid12) {
+		@include grid-span(5, 7);
 	}
 }
+
 
 .fred-group-map-frame {
 	width: 100%;

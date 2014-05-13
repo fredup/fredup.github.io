@@ -1,3 +1,12 @@
+# https://github.com/chriseppstein/sass-globbing
+require 'sass-globbing'
+
+# https://github.com/Team-Sass/Singularity/wiki/Installation#installation
+require 'singularitygs'
+
+# https://github.com/Team-Sass/breakpoint/wiki/Installation#using-breakpoint
+require 'breakpoint'
+
 sass_dir = "_sass"
 images_dir = "images"
 relative_assets = true

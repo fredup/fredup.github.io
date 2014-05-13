@@ -1,8 +1,8 @@
 desc "start building and running the site"
 task :default do
   pids = [
-    spawn("jekyll"),
     spawn("compass watch"),
+    spawn("jekyll serve --watch")
   ]
 
   trap "INT" do

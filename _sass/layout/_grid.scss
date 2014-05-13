@@ -1,5 +1,23 @@
-$total-columns: 16;
-$column-width: 3em;
-$gutter-width: 1em;
-$grid-padding: $gutter-width;
-$container-style: fluid;
+$grid12: 800px;
+$show-grid-background: true; // https://github.com/Team-Sass/Singularity/blob/1.x.x/CHANGELOG.md
+$background-grid-color: 'gold';
+
+// Singularity
+@include sgs-change('mobile first', true);
+@include add-grid(12 at $grid12);
+@include add-grid(5);
+
+// Width in relation to a column of 1. 3 gutters make 1 column
+@include add-gutter(1/3);
+
+// [opposite] : Flush on either side of the container.
+// [split]    : 1/2 gutter width. Splits gutter on either side of columns.
+@include add-gutter-style('opposite');
+
+// Background Grid
+@include sgs-change('debug', true);
+
+.fred {
+    @include clearfix;
+    // @include background-grid; // toggle on for development
+}
