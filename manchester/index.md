@@ -7,9 +7,7 @@ photo: manchester.jpg
 latlong: 53.479,-2.248
 ---
 
-## ManchesterFRED (#McrFRED).
-
-We had our first meetup on 20th March 2013 and have been going strong ever since.
+McrFRED had it's first meetup on 20th March 2013 and we've been going strong ever since.
 
 
 ### Email Signup
@@ -44,5 +42,5 @@ Be awesome... Sponsor, Donate <http://sow.so/donate> or Gittip <http://sow.so/gi
 
 For anything else related to #McrFRED, shout at me on twitter:
 
-+ Twitter: [@Mcr_FRED](https://twitter.com/Mcr_FRED)
-+ Simon Owen: [@simonowendesign](http://twitter.com/simonowendesign)
++ Twitter: [@Mcr_FRED](http://twitter.com/Mcr_FRED)
++ Simon Owen: [@s10wen](http://twitter.com/s10wen)
