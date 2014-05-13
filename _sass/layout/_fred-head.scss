@@ -1,7 +1,6 @@
 .fred-head,
 .fred-foot {
 	clear: both;
-	@include clearfix;
 	position: relative;
 	text-align: center;
 	background-color: #0F076B;
@@ -30,7 +29,6 @@
 	padding: 0;
 
 	.logo {
-		@include transition(.3s opacity ease-in-out);
 		display: block;
 		margin-bottom: 20px;
 	}
