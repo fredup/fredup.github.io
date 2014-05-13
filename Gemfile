@@ -1,4 +1,4 @@
-# A Gemfile describes the gem dependencies 
+# A Gemfile describes the gem dependencies
 # required to execute associated Ruby code.
 #
 # http://bundler.io/v1.5/man/bundle.1.html
