@@ -4,9 +4,7 @@
 //
 // ==========================================================================
 
-@import "compass/css3";
-@import "compass/utilities/general/clearfix";
-@import "../_vendor/sass/susy/sass/susy";
+@import "compass";
 @import "../_vendor/sass/normalize/2.1.0/normalize";
 
 
@@ -60,7 +58,7 @@ h6 {
 @import "layout/grid";
 
 .fred {
-	@include container;
+	// @include container;
 	padding: 0;
 }
 

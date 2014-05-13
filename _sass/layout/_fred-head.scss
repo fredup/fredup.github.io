@@ -1,6 +1,6 @@
 .fred-head,
 .fred-foot {
-	@include pad(1,1);
+	// @include pad(1,1);
 	clear: both;
 	@include clearfix;
 	background-color: #0F076B;
