@@ -2,15 +2,20 @@
 	background: $color-background;
 }
 
+
 .fred-page-header {
 	@extend .fred-group-header;
 }
 
+
 .fred-page-content {
-	@extend .fred-group-content;
+	max-width: 990px;
+	margin: 0 auto;
+
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
+
 
 section {
 	font-family: $font-monospace;
@@ -32,6 +37,7 @@ section {
 	}
 }
 
+
 section ul {
 	display: inline-block;
 	padding: 0;
@@ -40,30 +46,34 @@ section ul {
 	text-transform: uppercase;
 }
 
+
 section ul li {
 	display: inline-block;
-	*display: inline; // The asterisk only triggers IE7 and below
-	zoom: 1; // triggers hasLayout for IE
 	list-style: none;
 }
+
 
 section .current-freds {
 	text-align: center;
 	text-transform: uppercase;
 }
 
+
 section .splitter {
 	margin: 0 10px;
 }
+
 
 section ul li a {
 	text-decoration: none;
 }
 
+
 .wrap {
 	max-width: 600px;
 	margin: 0 auto;
 }
+
 
 .what {
 	background: white;
@@ -73,6 +83,7 @@ section ul li a {
 	}
 }
 
+
 .get-involved {
 	background: #144497 image-url('arrow-666.png') no-repeat 50% 0;
 	color: #ccc;
@@ -81,6 +92,7 @@ section ul li a {
 		color: #fff;
 	}
 }
+
 
 .who {
 	background: #eee image-url('arrow-339.png') no-repeat 50% 0;;

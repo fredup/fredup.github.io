@@ -19,17 +19,18 @@ The FRED organization itself was originally started by [Chris Van Patten](https:
 
 ###&sect; Contributing
 
-**Requires Ruby 1.9.3**
+**Requires Ruby 2.1.2**
 
+Install Ruby Gems
+
+```bash
+$ bundle install
 ```
-rvm install 1.9.3
-rvm use 1.9.3
-git clone {{url to repo}}
-cd {{repo dir}}
-gem install bundler
-bundle install
-git submodule update --init
-rake
+
+Start Jekyll, Compile Compass and Watch for Changes.
+
+```bash
+$ rake
 ```
 
 ###Adding Your City:
