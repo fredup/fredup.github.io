@@ -33,9 +33,9 @@ Videos can be found here:
 
 ### Sponsors
 
-Thanks to the wonderful [TechHub Manchester](http://manchester.techhub.com/) and the sponsors.
+Thanks to the wonderful [SpacePortX](http://spaceportx.com/) and the sponsors.
 
-Be awesome... Sponsor, Donate <http://sow.so/donate> or Gittip <http://sow.so/gittip>.
+Be awesome... Gratipay <http://sow.so/tip>.
 
 
 ### Contact Information
