@@ -10,7 +10,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "kramdown"
-gem "rake"
+gem "rake", ">= 12.3.3"
 
 gem "compass", "~>1.0.0.alpha"
 gem "breakpoint", "~>2.4.0"
